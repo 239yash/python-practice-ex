@@ -1,0 +1,15 @@
+def my_func(a,b):
+    c = 0
+    for item in [a,b]:
+        if item % 2 != 0:
+            c = c + 1
+        else:
+            continue    
+       
+    if c !=0:
+        return max((a,b))
+    else:
+        return min((a,b))  
+
+res = my_func(2,5)
+print('the result is {}'.format(res))
