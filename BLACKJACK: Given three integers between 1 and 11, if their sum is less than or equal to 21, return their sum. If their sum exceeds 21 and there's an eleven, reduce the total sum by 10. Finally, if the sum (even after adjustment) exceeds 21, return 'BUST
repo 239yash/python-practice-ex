@@ -1,0 +1,14 @@
+def blackjack(a,b,c):
+    sum = a+b+c
+    if sum <= 21:
+        print(sum)
+    if sum > 21 and (a ==11 or b==11 or c==11):
+        sum = sum - 10
+        if sum > 21:
+            print('BUST')
+        else:
+            print(sum)    
+    if sum > 21 and a !=11 and b !=11 and c !=11:
+        print('BUST')
+
+blackjack(9,9,9)
