@@ -1,0 +1,8 @@
+def myfun(n):
+    if n <= 110 or n >= 90 or n <= 210 or n >= 190:
+        return(True)
+    else:
+        return(False)
+
+result = myfun(104)
+print(result)
