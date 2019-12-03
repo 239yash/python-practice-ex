@@ -1,0 +1,7 @@
+def paper_doll(text):
+    char = ''
+    for item in text:
+        char = char + (item * 3)
+
+    print(char)
+paper_doll("hello")
