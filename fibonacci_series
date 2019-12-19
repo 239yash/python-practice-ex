@@ -1,0 +1,14 @@
+def fibo(n):
+    ans = 0
+    bns = 1
+    cns = 0
+    while(n > 0):
+
+        print("\n{}".format(a))
+        cns = ans + bns
+        ans = bns
+        bns = cns
+        n = n-1
+
+
+fibo(10)
